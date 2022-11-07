@@ -1,27 +1,19 @@
 //Feature #1
-function formatDate(date) {
-  let hours = date.getHours();
-  if (hours < 10) {
-    hours = `0${hours}`;
-  }
-  let minutes = date.getMinutes();
-  if (minutes < 10) {
-    minutes = `0${minutes}`;
-  }
-
-  let dayIndex = date.getDay();
-  let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-  ];
-  let day = days[dayIndex];
-
-  return `${day} ${hours}:${minutes}`;
+let currentDate = document.querySelector("#date");
+let now = new Date();
+let days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday"
+];
+let day = days[now.getDay()];
+let hour = now.getHours();
+let minute = now.getMinutes();
+currentDate.innerHTML = `${day} ${hour}:${minute}`;
 //Feature #2
 function search(event) {
   event.preventDefault();
