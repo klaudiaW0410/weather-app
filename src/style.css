@@ -1,0 +1,68 @@
+.container {
+    display: block;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-top: 100px;
+    padding: 20px 10px;
+    background: rgba(86, 156, 189, 0.2);
+    box-shadow: 3px 2px 15px 1px rgba(184, 184, 214, 0.8);
+}
+
+.submit {
+    border-radius: 10px;
+    box-shadow: 20px;
+    background: rgb(112, 182, 209);
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    border: rgb(149, 166, 251);
+    padding: 6px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 6px;
+    box-shadow: 20px;
+    background: rgb(112, 182, 209);
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    border: rgb(149, 166, 251);
+}
+
+.submit:hover,
+button:hover {
+    background: rgb(39, 126, 177);
+    color: #fff;
+    opacity: 0.9;
+}
+
+.enter {
+    margin-bottom: 7px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px black;
+    padding: 6px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.temp-text {
+    font-size: 60px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 5px;
+}
+
+.days {
+    margin-bottom: 20px;
+    background: rgba(23, 153, 192, 0.2);
+    border-radius: 10px;
+}
